@@ -51,7 +51,7 @@ const HomeCharacter = () => {
       setName("");
       setImage("");
       setStatus("حي");
-      setGender("");
+      setGender("ذكر");
       Swal.fire("تمت الإضافة بنجاح");
     } catch (error) {
       console.log(error);
